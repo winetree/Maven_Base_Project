@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>mavenbase</groupId>
+	<groupId>Maven_Base_Project</groupId>
 	<artifactId>mavenbase</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	
@@ -22,6 +22,8 @@
 			</plugin>
 		</plugins>
 		
+		
+		<!-- IntelliJ 호환 설정 -->
 		<!-- build path에 xml, properties 파일 컴파일 설정 -->
 		<resources>
 			<resource>
